@@ -6,6 +6,12 @@ macos/* linguist-vendored
 windows/* linguist-vendored
 web/* linguist-vendored
 
+# Ignore specific C++ directories and files
+**/*.cpp linguist-vendored
+**/*.h linguist-vendored
+**/*.hpp linguist-vendored
+**/*.cc linguist-vendored
+
 # Ignore CMake files
 CMakeLists.txt linguist-vendored
 *.cmake linguist-vendored
